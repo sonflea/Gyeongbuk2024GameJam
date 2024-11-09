@@ -601,6 +601,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361547451}
   m_CullTransparentMesh: 1
+--- !u!1 &1574669473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1574669474}
+  - component: {fileID: 1574669475}
+  m_Layer: 0
+  m_Name: ObjectSponer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1574669474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574669473}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 758.8573, y: 750.6363, z: -12.277363}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574669475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574669473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61edd9de04cd8c24ebb278ab5fd13526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapX: 25
+  mapY: 25
+  itemMaxSize: 5
+  itemsCount: 5
+  Player: {fileID: 2076017262}
+  FramingObjList:
+  - {fileID: 3496819221140755359, guid: d26aff2375fd60542aa296fa3b661dda, type: 3}
+  - {fileID: 3496819221140755359, guid: ad42127abfe4e754e8a85fde8d9d8117, type: 3}
+  - {fileID: 3496819221140755359, guid: 69555172c733aa14fbe71929ba892312, type: 3}
+  - {fileID: 3496819221140755359, guid: df135bb13459c2842bd591782da4341b, type: 3}
 --- !u!1 &2045186746
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,3 +1015,4 @@ SceneRoots:
   - {fileID: 2045186750}
   - {fileID: 622332847}
   - {fileID: 235298986}
+  - {fileID: 1574669474}
